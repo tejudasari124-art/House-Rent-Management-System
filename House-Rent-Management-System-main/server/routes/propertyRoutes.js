@@ -1,0 +1,17 @@
+const { protect } = require("../middleware/authMiddleware");
+const express = require("express");
+const {
+    addProperty,
+    getAllProperties,
+    getPropertyById,
+    updateProperty,
+    deleteProperty
+} = require("../controllers/propertyController");
+
+const router = express.Router();
+router.post("/add", protect, addProperty);
+router.get("/", getAllProperties);
+router.get("/:id", getPropertyById);
+router.put("/:id", updateProperty);
+router.delete("/:id", deleteProperty);
+module.exports = router;
