@@ -49,16 +49,19 @@ A full-stack **House Rent Management System** developed using the **MERN Stack (
 
 ## 📂 Project Structure
 
-```
+```text
 House-Rent-Management-System/
 │
 ├── client/
+│   ├── public/
 │   ├── src/
 │   │   ├── components/
 │   │   ├── pages/
 │   │   ├── services/
 │   │   ├── App.js
 │   │   └── index.js
+│   ├── package.json
+│   └── package-lock.json
 │
 ├── server/
 │   ├── config/
@@ -66,12 +69,32 @@ House-Rent-Management-System/
 │   ├── middleware/
 │   ├── models/
 │   ├── routes/
+│   ├── package.json
 │   └── server.js
 │
+├── Documentation/
+│   └── Documentation.pdf
+│
+├── Phase Wise Templates/
+│   ├── Brainstorming & Ideation Phase/
+│   ├── Project Design Phase/
+│   ├── Project Development/
+│   ├── Project Planning Phase/
+│   └── Requirement Analysis/
+│
+├── screenshots/
+│   ├── home.png
+│   ├── login.png
+│   ├── register.png
+│   ├── properties.png
+│   ├── property-details.png
+│   ├── add-property.png
+│   ├── dashboard.png
+│   └── my-bookings.png
+│
+├── .gitignore
 └── README.md
 ```
-
----
 
 ## ⚙ Installation
 
@@ -144,6 +167,7 @@ The application uses **JWT (JSON Web Token)** for secure authentication. After a
 
 ## 👨‍💻 Developed By
 
+**PILLI VIJAYAKUMARI**<br>
 **CHINTAKULA MUKESH NARAYANA**<br>
 **DASARI JEEVAN SAI CHAKRI**<br>
 **DASARI TEJEESWARI**
