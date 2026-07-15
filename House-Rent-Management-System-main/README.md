@@ -128,6 +128,9 @@ The application uses **JWT (JSON Web Token)** for secure authentication. After a
 
 ---
 
+## Project Demo Video
+https://drive.google.com/file/d/10tEpFwxAHDPTBCS_L0Pv74s252NCxiH0/view?usp=sharing
+
 ## 📷 Screenshots
 
 ### 🏠 Home Page
